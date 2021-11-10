@@ -13,6 +13,8 @@
 		85D79116273B7FB200A956EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D79115273B7FB200A956EE /* Assets.xcassets */; };
 		85D79119273B7FB200A956EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D79117273B7FB200A956EE /* LaunchScreen.storyboard */; };
 		85D79121273B842300A956EE /* PersonListWithoutSectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D79120273B842300A956EE /* PersonListWithoutSectionTableViewController.swift */; };
+		85D79123273C26A600A956EE /* PersonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D79122273C26A600A956EE /* PersonInfo.swift */; };
+		85D79125273C280500A956EE /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D79124273C280500A956EE /* Database.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		85D79118273B7FB200A956EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85D7911A273B7FB200A956EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85D79120273B842300A956EE /* PersonListWithoutSectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListWithoutSectionTableViewController.swift; sourceTree = "<group>"; };
+		85D79122273C26A600A956EE /* PersonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfo.swift; sourceTree = "<group>"; };
+		85D79124273C280500A956EE /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		85D7910B273B7FAA00A956EE /* ShalginSR_HW_2.7 */ = {
 			isa = PBXGroup;
 			children = (
+				85D79122273C26A600A956EE /* PersonInfo.swift */,
+				85D79124273C280500A956EE /* Database.swift */,
 				85D7910C273B7FAA00A956EE /* AppDelegate.swift */,
 				85D7910E273B7FAA00A956EE /* SceneDelegate.swift */,
 				85D79112273B7FAA00A956EE /* Main.storyboard */,
@@ -141,6 +147,8 @@
 				85D7910D273B7FAA00A956EE /* AppDelegate.swift in Sources */,
 				85D79121273B842300A956EE /* PersonListWithoutSectionTableViewController.swift in Sources */,
 				85D7910F273B7FAA00A956EE /* SceneDelegate.swift in Sources */,
+				85D79125273C280500A956EE /* Database.swift in Sources */,
+				85D79123273C26A600A956EE /* PersonInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
