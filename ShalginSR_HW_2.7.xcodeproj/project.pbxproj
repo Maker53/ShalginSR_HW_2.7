@@ -15,6 +15,7 @@
 		85D79121273B842300A956EE /* PersonListWithoutSectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D79120273B842300A956EE /* PersonListWithoutSectionTableViewController.swift */; };
 		85D79123273C26A600A956EE /* PersonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D79122273C26A600A956EE /* PersonInfo.swift */; };
 		85D79127273C3E7200A956EE /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D79126273C3E7200A956EE /* Database.swift */; };
+		85D79129273C422300A956EE /* PersonInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D79128273C422300A956EE /* PersonInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		85D79120273B842300A956EE /* PersonListWithoutSectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListWithoutSectionTableViewController.swift; sourceTree = "<group>"; };
 		85D79122273C26A600A956EE /* PersonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfo.swift; sourceTree = "<group>"; };
 		85D79126273C3E7200A956EE /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		85D79128273C422300A956EE /* PersonInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				85D79122273C26A600A956EE /* PersonInfo.swift */,
+				85D79128273C422300A956EE /* PersonInfoViewController.swift */,
 				85D79126273C3E7200A956EE /* Database.swift */,
 				85D7910C273B7FAA00A956EE /* AppDelegate.swift */,
 				85D7910E273B7FAA00A956EE /* SceneDelegate.swift */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85D7910D273B7FAA00A956EE /* AppDelegate.swift in Sources */,
+				85D79129273C422300A956EE /* PersonInfoViewController.swift in Sources */,
 				85D79121273B842300A956EE /* PersonListWithoutSectionTableViewController.swift in Sources */,
 				85D7910F273B7FAA00A956EE /* SceneDelegate.swift in Sources */,
 				85D79127273C3E7200A956EE /* Database.swift in Sources */,
