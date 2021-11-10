@@ -8,32 +8,28 @@
 import UIKit
 
 class PersonListWithoutSectionTableViewController: UITableViewController {
+    
+    // MARK: - Private Properties
+    private var personInfo = Person.getPerson()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
 
-    // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 0
-    }
-
+    // MARK: - Table View Data Source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        personInfo.count
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "fullname", for: indexPath)
+        let fullName = personInfo[indexPath.row]
+        var content = cell.defaultContentConfiguration()
+        content.text = fullName.fullName
+        cell.contentConfiguration = content
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
@@ -70,14 +66,8 @@ class PersonListWithoutSectionTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
-
 }

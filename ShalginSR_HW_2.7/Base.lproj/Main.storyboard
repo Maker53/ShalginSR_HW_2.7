@@ -18,13 +18,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="DEw-n9-MmN">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="fullname" id="DEw-n9-MmN">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DEw-n9-MmN" id="zfp-b1-X7I">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="i29-v8-MIm" kind="show" id="h3o-rd-rng"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -35,9 +38,6 @@
                     <navigationItem key="navigationItem" title="Persons List" id="mef-YS-XDS">
                         <barButtonItem key="backBarButtonItem" title="Back" id="lAS-rD-WOL"/>
                     </navigationItem>
-                    <connections>
-                        <segue destination="i29-v8-MIm" kind="show" id="OPX-IS-UXd"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hMo-SP-1rZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
