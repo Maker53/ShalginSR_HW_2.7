@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PersonListWithoutSectionTableViewController: UITableViewController {
+class PersonsListTableViewController: UITableViewController {
     
     // MARK: - Private Properties
     private var personInfo = Person.getPerson()
