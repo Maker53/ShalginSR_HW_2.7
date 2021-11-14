@@ -35,7 +35,7 @@
                             <outlet property="delegate" destination="qOz-71-mcB" id="nbx-A7-uYS"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="cDs-xr-nyW">
+                    <tabBarItem key="tabBarItem" title="Contacts" id="cDs-xr-nyW">
                         <imageReference key="image" image="person.circle.fill" catalog="system" symbolScale="large"/>
                         <imageReference key="selectedImage" image="person.circle.fill" catalog="system" symbolScale="medium"/>
                     </tabBarItem>
@@ -152,7 +152,7 @@
                             <outlet property="delegate" destination="3w6-Fa-n1e" id="Ycd-sQ-3c7"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="msl-gZ-XK9">
+                    <tabBarItem key="tabBarItem" title="Contacts" id="msl-gZ-XK9">
                         <imageReference key="image" image="person.circle.fill" catalog="system" symbolScale="large"/>
                         <imageReference key="selectedImage" image="person.circle.fill" catalog="system" symbolScale="medium"/>
                     </tabBarItem>
