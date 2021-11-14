@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8577539B274109E400FFFCEB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8577539A274109E400FFFCEB /* TabBarViewController.swift */; };
+		8577539F27410AAD00FFFCEB /* SectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8577539E27410AAD00FFFCEB /* SectionTableViewController.swift */; };
 		85D7910D273B7FAA00A956EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D7910C273B7FAA00A956EE /* AppDelegate.swift */; };
 		85D7910F273B7FAA00A956EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D7910E273B7FAA00A956EE /* SceneDelegate.swift */; };
 		85D79114273B7FAA00A956EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D79112273B7FAA00A956EE /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8577539A274109E400FFFCEB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		8577539E27410AAD00FFFCEB /* SectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewController.swift; sourceTree = "<group>"; };
 		85D79109273B7FAA00A956EE /* ShalginSR_HW_2.7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShalginSR_HW_2.7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D7910C273B7FAA00A956EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85D7910E273B7FAA00A956EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,14 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		857753942740FFA200FFFCEB /* Services */ = {
+		857753942740FFA200FFFCEB /* App */ = {
 			isa = PBXGroup;
 			children = (
 				85D7910C273B7FAA00A956EE /* AppDelegate.swift */,
 				85D7910E273B7FAA00A956EE /* SceneDelegate.swift */,
 				85D7911A273B7FB200A956EE /* Info.plist */,
 			);
-			path = Services;
+			path = App;
 			sourceTree = "<group>";
 		};
 		857753952740FFB500FFFCEB /* Storyboards */ = {
@@ -67,6 +71,8 @@
 			children = (
 				85D79128273C422300A956EE /* PersonInfoViewController.swift */,
 				85D79120273B842300A956EE /* PersonsListTableViewController.swift */,
+				8577539A274109E400FFFCEB /* TabBarViewController.swift */,
+				8577539E27410AAD00FFFCEB /* SectionTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -79,12 +85,12 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		857753982740FFD500FFFCEB /* Databases */ = {
+		857753982740FFD500FFFCEB /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				85D79126273C3E7200A956EE /* Database.swift */,
 			);
-			path = Databases;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		857753992740FFED00FFFCEB /* Resources */ = {
@@ -116,10 +122,10 @@
 			children = (
 				857753962740FFC300FFFCEB /* View Controllers */,
 				857753972740FFCF00FFFCEB /* Models */,
-				857753982740FFD500FFFCEB /* Databases */,
+				857753982740FFD500FFFCEB /* Services */,
 				857753952740FFB500FFFCEB /* Storyboards */,
 				857753992740FFED00FFFCEB /* Resources */,
-				857753942740FFA200FFFCEB /* Services */,
+				857753942740FFA200FFFCEB /* App */,
 			);
 			path = ShalginSR_HW_2.7;
 			sourceTree = "<group>";
@@ -199,7 +205,9 @@
 				85D79129273C422300A956EE /* PersonInfoViewController.swift in Sources */,
 				85D79121273B842300A956EE /* PersonsListTableViewController.swift in Sources */,
 				85D7910F273B7FAA00A956EE /* SceneDelegate.swift in Sources */,
+				8577539B274109E400FFFCEB /* TabBarViewController.swift in Sources */,
 				85D79127273C3E7200A956EE /* Database.swift in Sources */,
+				8577539F27410AAD00FFFCEB /* SectionTableViewController.swift in Sources */,
 				85D79123273C26A600A956EE /* PersonInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +359,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T94XUBZ99A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShalginSR_HW_2.7/Services/Info.plist;
+				INFOPLIST_FILE = ShalginSR_HW_2.7/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -379,7 +387,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T94XUBZ99A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShalginSR_HW_2.7/Services/Info.plist;
+				INFOPLIST_FILE = ShalginSR_HW_2.7/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

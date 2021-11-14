@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Persons List Without Section-->
+        <!--Persons List-->
         <scene sceneID="dJj-N4-ymF">
             <objects>
-                <tableViewController id="qOz-71-mcB" userLabel="Persons List Without Section" customClass="PersonsListTableViewController" customModule="ShalginSR_HW_2_7" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="qOz-71-mcB" customClass="PersonsListTableViewController" customModule="ShalginSR_HW_2_7" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="AA6-ff-ihQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,7 +56,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zLy-ba-28E">
-                                <rect key="frame" x="16" y="104" width="288" height="58"/>
+                                <rect key="frame" x="16" y="151" width="288" height="58"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXO-PB-vae">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="24"/>
@@ -93,10 +93,10 @@
             </objects>
             <point key="canvasLocation" x="2268.1159420289855" y="81.696428571428569"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="zpL-5c-n4y">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="A1h-UE-OIU" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="A1h-UE-OIU" customClass="TabBarViewController" customModule="ShalginSR_HW_2_7" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Bf2-eY-DLN"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="L98-sI-9Gt">
@@ -113,10 +113,10 @@
             </objects>
             <point key="canvasLocation" x="433" y="450"/>
         </scene>
-        <!--Person List With Section-->
+        <!--Section-->
         <scene sceneID="NmL-FO-lMa">
             <objects>
-                <tableViewController id="3w6-Fa-n1e" userLabel="Person List With Section" sceneMemberID="viewController">
+                <tableViewController id="3w6-Fa-n1e" userLabel="Section" customClass="SectionTableViewController" customModule="ShalginSR_HW_2_7" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="lBz-1h-ynF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -215,8 +215,8 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4AW-y3-0l0" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9Eq-F0-ngI">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="9Eq-F0-ngI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

@@ -6,7 +6,7 @@
 //
 
 // MARK: - Private Properties
-private var database = DataManager()
+private var database = DataManager.shared
 
 struct Person {
     let name: String
@@ -22,6 +22,7 @@ struct Person {
 //MARK: - Get Person
 extension Person {
     static func getPerson() -> [Person] {
+        
         let names = database.names.shuffled()
         let surnames = database.surnames.shuffled()
         let emails = database.emails.shuffled()
@@ -29,10 +30,15 @@ extension Person {
         
         var randomPersons: [Person] = []
         
-        for element in 0...database.names.count - 1 {
+        let iterationCount = min(
+            names.count, surnames.count,
+            emails.count, phoneNumbers.count
+        )
+        
+        for index in 0..<iterationCount {
             randomPersons.append(Person(
-                name: names[element], surname: surnames[element],
-                email: emails[element], phoneNumber: phoneNumbers[element]
+                name: names[index], surname: surnames[index],
+                email: emails[index], phoneNumber: phoneNumbers[index]
             ))
         }
         return randomPersons
